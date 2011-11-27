@@ -1,0 +1,16 @@
+Name: LaunchVibrate
+Package: com.app1enerd.launchvibrate
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 4.0)
+Version: 1.1
+Architecture: iphoneos-arm
+Description: phone vibrates when launching apps
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=launchvibrateDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=launchvibrateDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ron Melkhior <ron3353@gmail.com>
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 9
+dev: ron3353
