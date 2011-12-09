@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+		<key>entry</key>
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>label</key>
+		<string>LaunchVibrate</string>
+		</dict>
+	<key>title</key>
+	<string>LaunchVibrate</string>
+	<key>items</key>
+	<array>
+    		<dict>
+          		<key>cell</key>
+          		<string>PSSwitchCell</string>
+          		<key>default</key>
+          		<false/>
+          		<key>defaults</key>
+          		<string>com.app1enerd.launchvibrate</string>
+          		<key>key</key>
+          		<string>icon</string>
+          		<key>label</key>
+          		<string>At Icon Launch</string>
+    		</dict>
+    		<dict>
+          		<key>cell</key>
+          		<string>PSSwitchCell</string>
+          		<key>default</key>
+          		<false/>
+          		<key>defaults</key>
+          		<string>com.app1enerd.launchvibrate</string>
+          		<key>key</key>
+          		<string>bookmark</string>
+          		<key>label</key>
+          		<string>At Bookmark Launch</string>
+    		</dict>
+    		<dict>
+          		<key>cell</key>
+          		<string>PSSwitchCell</string>
+          		<key>default</key>
+          		<false/>
+          		<key>defaults</key>
+          		<string>com.app1enerd.launchvibrate</string>
+          		<key>key</key>
+          		<string>anywhere</string>
+          		<key>label</key>
+          		<string>Vibrate Anywhere</string>
+    		</dict>
+			<dict>
+          		<key>cell</key>
+          		<string>PSSwitchCell</string>
+          		<key>default</key>
+          		<false/>
+          		<key>defaults</key>
+          		<string>com.app1enerd.launchvibrate</string>
+          		<key>key</key>
+          		<string>folder</string>
+          		<key>label</key>
+          		<string>At Folder Launch</string>
+    		</dict>
+    		<dict>
+          		<key>cell</key>
+          		<string>PSSwitchCell</string>
+          		<key>default</key>
+          		<false/>
+          		<key>defaults</key>
+          		<string>com.app1enerd.launchvibrate</string>
+          		<key>key</key>
+          		<string>unlock</string>
+          		<key>label</key>
+          		<string>At Device Unlock</string>
+    		</dict>
+    		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>If you enable Vibrate Anywhere toggle, the device will vibrate even if you are just going to open an app by getting notification.
+Please don't power it on, and also At Icon Launch and At Bookmark Launch. Or your device will vibrate twice.</string>
+			</dict>
+			<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>© 2011 Ron Melkhior</string>
+			</dict>
+	</array>
+</dict>
+</plist>
